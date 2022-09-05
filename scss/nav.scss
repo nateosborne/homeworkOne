@@ -1,0 +1,29 @@
+nav{
+    font-family: alata;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 2px;
+
+    .logo{
+        color: white;
+        margin-left: 50px;
+    }
+
+    .links{
+        margin-right: 50px;
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+}

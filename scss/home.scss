@@ -1,0 +1,102 @@
+.home{
+
+    width: 100%;
+
+    .hero{
+        background-image: linear-gradient(
+            rgba(black, 0.2),
+            rgba(black, 0.2)
+          ), url(../images/blazers2jpg.jpg);
+        width: 100%;
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+
+        h1{
+            font-family: alata;
+            color: white;
+            font-size: 200px;
+            margin-top: -250px;
+        }
+    }
+
+    
+    .shoeimgs{
+        height: 800px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .row1{
+            width: 1050px;
+            height: 300px;
+            margin-bottom: 70px;
+            display: flex;
+            justify-content: space-between;
+
+            .img1{
+                width: 300px;
+                height: 300px;
+                background-image: url(../images/jordan1.jpg);
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+
+            .img2{
+                width: 300px;
+                height: 300px;
+                background-image: url(../images/airmax.webp);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                background-position-y: 30px;
+            }
+
+            .img3{
+                width: 300px;
+                height: 300px;
+                background-image: url(../images/af1.jpg);
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+        }
+
+        .row2{
+            width: 1050px;
+            height: 300px;
+            display: flex;
+            justify-content: space-between;
+
+            .img4{
+                width: 300px;
+                height: 300px;
+                background-image: url(../images/blazerimg.webp);
+                background-repeat: no-repeat;
+                background-size: 95%;
+                background-position-y: 30px;
+            }
+
+            .img5{
+                width: 300px;
+                height: 300px;
+                background-image: url(../images/95.webp);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                background-position-y: 40px;
+            }
+
+            .img6{
+                width: 300px;
+                height: 300px;
+                background-image: url(../images/dunk.webp);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                background-position-y: -135px;
+            }
+        }
+    }
+}

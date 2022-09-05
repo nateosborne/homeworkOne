@@ -1,0 +1,22 @@
+.about{
+    width: 100%;
+    height: 100%;
+    font-family: alata;
+
+    .title{
+        margin-left: 70px;
+        margin-top: 50px;
+        font-size: 40px;
+    }
+
+    .about-text{
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+
+        p{
+            width: 700px;
+            line-height: 30px;
+        }
+    }
+}

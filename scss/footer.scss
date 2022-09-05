@@ -1,0 +1,19 @@
+footer{
+    font-family: alata;
+    height: 60px;
+    width: 100%;
+    background-color: #a6a6a6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo{
+        color: black;
+        margin-left: 50px;
+    }
+
+    p{
+        margin-top: 15px;
+        margin-right: 50px;
+    }
+}   

@@ -1,0 +1,68 @@
+.products{
+    width: 100%;
+
+    .hero{
+        background-image: linear-gradient(
+            rgba(black, 0.2),
+            rgba(black, 0.2)
+          ), url(../images/nikehero.jpg);
+        width: 100%;
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        background-position: center;
+    }
+
+    .shoes1{
+        height: 850px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        h1{
+            font-size: 50px;
+            font-family: alata;
+            margin-bottom: 30px;
+        }
+
+        .shoes1img{
+            background-image: url(../images/airmaxhero.jpg);
+            height: 600px;
+            width: 600px;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            margin-bottom: 30px;
+        }
+    }
+
+    .shoes2{
+        height: 850px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: black;
+
+        h1{
+            font-size: 50px;
+            font-family: alata;
+            margin-bottom: 30px;
+            color: white;
+            margin-top: 70px;
+        }
+
+        .shoes2img{
+            background-image: url(../images/blazershero.jpg);
+            height: 600px;
+            width: 600px;
+            background-repeat: no-repeat;
+            margin-bottom: 30px;
+            background-position: -80px;
+        }
+    }
+}
